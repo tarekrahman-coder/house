@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- tailwind css cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- google font inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/4df50761b3.js" crossorigin="anonymous"></script>
+  <!-- for customize config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            one: '#abef5f',
+            two: '#212121'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    
+    <main class="container mx-auto px-4 bg-gradient-to-r from-white to-slate-100 ">
+
+        <!-- header started -->
+        <header class="pt-14">
+
+            <!-- navbar -->
+            <nav class="flex items-center justify-between">
+                <!-- logo -->
+                 <div class="flex items-center gap-1">
+                    <i class="fa-solid fa-arrow-right bg-lime-400 p-2 md:p-2 rounded-2xl md:rounded-3xl text-black -rotate-45"></i>
+                    <h3 class=" text-xl md:text-2xl font-bold">Rinterio</h3>
+                 </div>
+
+                 <!-- center items -->
+                 <ul class=" gap-8 hidden lg:flex">
+                    <li><a class="font-bold" href="#">Home</a></li>
+                    <li><a class="text-gray-500" href="#">Services</a></li>
+                    <li><a class="text-gray-500" href="#">Portfolio</a></li>
+                    <li><a class="text-gray-500" href="#">Blogs</a></li>
+                    <li><a class="text-gray-500" href="#">Contacts Us</a></li>
+                 </ul>
+
+                 <!-- right items -->
+                  <div class="flex justify-between">
+                    <div class="gap-2 md:gap-4 items-center hidden md:flex">
+                        <i class="fa-solid fa-search bg-white text-slate-500 px-3 py-4 rounded-2xl"></i>
+                        <i class="fa-solid fa-cart-shopping bg-white text-slate-500 px-3 py-4 rounded-3xl"></i>
+                        <button class="bg-lime-400 py-1 px-3 rounded-3xl text-sm md:text-base font-bold ">Book Consult 
+                            <i class="fa-solid fa-arrow-right bg-black p-2 md:p-2 rounded-2xl ml-1 md:rounded-3xl text-white -rotate-45"></i>
+                        </button>
+                        
+                      </div> 
+
+                      <!-- bar -->
+                      <i class="fa-solid fa-bars lg:hidden rounded-3xl text-lg text-slate-500 bg-white p-3"></i>
+                  </div>
+                                
+
+            </nav>
+
+            <!-- hero -->
+             
+        </header>
+    </main>
+
+
+</body>
+</html>
